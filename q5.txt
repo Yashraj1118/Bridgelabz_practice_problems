@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the radius ");
+        int a= sc.nextInt();
+		System.out.println("Enter the height ");
+        int b= sc.nextInt();
+	int d=Math.pow(a,2);
+         c=3.14*d*b.;
+        System.out.println("Volume of a cylinder is " + c);
+    }
+}
